@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.Fullscreen">
         <activity
-            android:name=".MainActivity"
+            android:name=".SecondActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,8 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Compass" />
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

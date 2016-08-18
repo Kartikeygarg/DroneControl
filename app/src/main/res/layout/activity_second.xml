@@ -12,19 +12,29 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/lightRed"
+        android:id="@+id/frontIV"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="@color/lightGreen"
-        android:id="@+id/drawringIV"/>
+        android:id="@+id/topIV"/>
 
     <Button
-        android:layout_width="40dp"
+        android:layout_width="80dp"
         android:layout_height="40dp"
+        android:text="Connect"
+        android:textSize="12dp"
+        android:layout_toLeftOf="@+id/port"
         android:id="@+id/btn1"/>
     <Button
-        android:layout_width="40dp"
+        android:layout_width="70dp"
         android:layout_height="40dp"
-        android:text="X-Y"
-        android:layout_toLeftOf="@+id/port"
-        android:id="@+id/btn2"/>
+        android:text="FRONT"
+        android:textSize="13dp"
+
+        android:id="@+id/btn_view"/>
 
     <EditText
         android:id="@+id/address"
@@ -33,6 +43,7 @@
         android:inputType="phone"
         android:layout_height="wrap_content"
         android:hint="dstAddress"
+        android:textSize="14dp"
         android:textAlignment="center"/>
 
     <EditText
@@ -40,6 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="dstPort"
+        android:textSize="14dp"
         android:inputType="number"
         android:layout_marginLeft="10dp"
         android:layout_toLeftOf="@+id/address"
